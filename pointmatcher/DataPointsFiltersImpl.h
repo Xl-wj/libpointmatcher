@@ -73,6 +73,7 @@ struct DataPointsFiltersImpl
 	typedef ::MinDistDataPointsFilter<T>	MinDistDataPointsFilter;
 	typedef ::BoundingBoxDataPointsFilter<T> BoundingBoxDataPointsFilter;
 	typedef ::MaxQuantileOnAxisDataPointsFilter<T> MaxQuantileOnAxisDataPointsFilter;
+		// __
 	typedef ::MaxDensityDataPointsFilter<T> MaxDensityDataPointsFilter;
 	typedef ::SurfaceNormalDataPointsFilter<T> SurfaceNormalDataPointsFilter;
 	typedef ::SamplingSurfaceNormalDataPointsFilter<T> SamplingSurfaceNormalDataPointsFilter;
