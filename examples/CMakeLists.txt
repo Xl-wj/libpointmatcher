@@ -25,3 +25,6 @@ target_link_libraries(icp_customized pointmatcher)
 
 add_executable(scan_align scan_align.cpp)
 target_link_libraries(scan_align pointmatcher glog)
+
+add_executable(dp_Type dp_Type.cpp)
+target_link_libraries(dp_Type pointmatcher glog)

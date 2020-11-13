@@ -2,21 +2,22 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="libpointmatcher" targetName="pmicp" />
-      <config projectName="libpointmatcher" targetName="icp_advance_api" />
-      <config projectName="libpointmatcher" targetName="yaml-cpp-pm" />
-      <config projectName="libpointmatcher" targetName="compute_overlap" />
-      <config projectName="libpointmatcher" targetName="gtest" />
-      <config projectName="libpointmatcher" targetName="list_modules" />
-      <config projectName="libpointmatcher" targetName="icp_simple" />
-      <config projectName="libpointmatcher" targetName="scan_align" />
-      <config projectName="libpointmatcher" targetName="pointmatcher" />
       <config projectName="libpointmatcher" targetName="uninstall" />
+      <config projectName="libpointmatcher" targetName="pmicp" />
+      <config projectName="libpointmatcher" targetName="icp_simple" />
+      <config projectName="libpointmatcher" targetName="compute_overlap" />
+      <config projectName="libpointmatcher" targetName="icp_advance_api" />
       <config projectName="libpointmatcher" targetName="debuggable" />
       <config projectName="libpointmatcher" targetName="icp_customized" />
-      <config projectName="libpointmatcher" targetName="build_map" />
-      <config projectName="libpointmatcher" targetName="align_sequence" />
+      <config projectName="libpointmatcher" targetName="yaml-cpp-pm" />
+      <config projectName="libpointmatcher" targetName="gtest" />
       <config projectName="libpointmatcher" targetName="releasable" />
+      <config projectName="libpointmatcher" targetName="align_sequence" />
+      <config projectName="libpointmatcher" targetName="pointmatcher" />
+      <config projectName="libpointmatcher" targetName="dp_Type" />
+      <config projectName="libpointmatcher" targetName="build_map" />
+      <config projectName="libpointmatcher" targetName="scan_align" />
+      <config projectName="libpointmatcher" targetName="list_modules" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -27,9 +28,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="243d70f5-97f3-47b7-91a5-06dd317be79a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/examples/dp_Type.cpp" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change beforePath="$PROJECT_DIR$/examples/CMakeLists.txt" afterPath="$PROJECT_DIR$/examples/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/pointmatcher/DataPointsFiltersImpl.h" afterPath="$PROJECT_DIR$/pointmatcher/DataPointsFiltersImpl.h" />
+      <change beforePath="$PROJECT_DIR$/examples/scan_align.cpp" afterPath="$PROJECT_DIR$/examples/scan_align.cpp" />
+      <change beforePath="$PROJECT_DIR$/pointmatcher/ErrorMinimizer.cpp" afterPath="$PROJECT_DIR$/pointmatcher/ErrorMinimizer.cpp" />
+      <change beforePath="$PROJECT_DIR$/pointmatcher/ICP.cpp" afterPath="$PROJECT_DIR$/pointmatcher/ICP.cpp" />
+      <change beforePath="$PROJECT_DIR$/pointmatcher/PointMatcher.h" afterPath="$PROJECT_DIR$/pointmatcher/PointMatcher.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -40,59 +46,75 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MatrixBase.h" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/eigen3/Eigen/src/Core/MatrixBase.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="320" column="43" lean-forward="false" selection-start-line="320" selection-start-column="43" selection-end-line="320" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Matches.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pointmatcher/Matches.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="112" column="7" lean-forward="false" selection-start-line="112" selection-start-column="7" selection-end-line="112" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ICP.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pointmatcher/ICP.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="777">
-              <caret line="406" column="25" lean-forward="false" selection-start-line="406" selection-start-column="25" selection-end-line="406" selection-end-column="25" />
+            <state relative-caret-position="3576">
+              <caret line="149" column="75" lean-forward="false" selection-start-line="149" selection-start-column="53" selection-end-line="149" selection-end-column="75" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scan_align.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/scan_align.cpp">
+      <file leaf-file-name="Registry.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pointmatcher/Registry.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="206" column="2" lean-forward="false" selection-start-line="206" selection-start-column="2" selection-end-line="206" selection-end-column="2" />
-              <folding>
-                <element signature="e#1#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1032">
+              <caret line="43" column="29" lean-forward="false" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stl_function.h" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/c++/7/bits/stl_function.h">
+      <file leaf-file-name="TransformationCheckersImpl.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pointmatcher/TransformationCheckersImpl.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="117" column="11" lean-forward="false" selection-start-line="117" selection-start-column="11" selection-end-line="117" selection-end-column="11" />
-              <folding>
-                <element signature="e#4495#4545#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="2256">
+              <caret line="94" column="4" lean-forward="false" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransformationCheckersImpl.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pointmatcher/TransformationCheckersImpl.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4776">
+              <caret line="199" column="41" lean-forward="false" selection-start-line="199" selection-start-column="41" selection-end-line="199" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Registrar.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pointmatcher/Registrar.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5256">
+              <caret line="219" column="10" lean-forward="false" selection-start-line="219" selection-start-column="10" selection-end-line="219" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ErrorMinimizer.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pointmatcher/ErrorMinimizer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5232">
+              <caret line="218" column="84" lean-forward="false" selection-start-line="218" selection-start-column="84" selection-end-line="218" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransformationChecker.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pointmatcher/TransformationChecker.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2928">
+              <caret line="122" column="14" lean-forward="false" selection-start-line="122" selection-start-column="14" selection-end-line="122" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,39 +122,31 @@
       <file leaf-file-name="PointMatcher.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pointmatcher/PointMatcher.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="397" column="2" lean-forward="false" selection-start-line="397" selection-start-column="2" selection-end-line="397" selection-end-column="2" />
+            <state relative-caret-position="3576">
+              <caret line="149" column="12" lean-forward="false" selection-start-line="149" selection-start-column="12" selection-end-line="149" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatchersImpl.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pointmatcher/MatchersImpl.h">
+      <file leaf-file-name="Exceptions.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pointmatcher/Exceptions.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1030">
-              <caret line="92" column="11" lean-forward="false" selection-start-line="92" selection-start-column="11" selection-end-line="92" selection-end-column="11" />
+            <state relative-caret-position="108">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Matcher.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pointmatcher/Matcher.cpp">
+      <file leaf-file-name="DataPointsFiltersImpl.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pointmatcher/DataPointsFiltersImpl.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="76" column="0" lean-forward="false" selection-start-line="65" selection-start-column="1" selection-end-line="76" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MatchersImpl.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pointmatcher/MatchersImpl.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="742">
-              <caret line="137" column="7" lean-forward="false" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="889">
+              <caret line="94" column="20" lean-forward="true" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
+              <folding>
+                <element signature="e#3053#3065#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,6 +157,20 @@
     <findStrings>
       <find>Matches</find>
       <find>outlierFilters</find>
+      <find>getOverlap</find>
+      <find>maxDists</find>
+      <find>readingFiltered</find>
+      <find>resolveEstimatorName</find>
+      <find>computePointToPlaneDistance</find>
+      <find>addF</find>
+      <find>loadF</find>
+      <find>thread</find>
+      <find>USE_OPEN_MP</find>
+      <find>_Options</find>
+      <find>Inspector</find>
+      <find>converg</find>
+      <find>transformationCheckers</find>
+      <find>RemoveNaNDataPointsFilter</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,11 +179,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/examples/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/pointmatcher/DataPointsFiltersImpl.h" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pointmatcher/MatchersImpl.h" />
+        <option value="$PROJECT_DIR$/pointmatcher/ErrorMinimizer.cpp" />
+        <option value="$PROJECT_DIR$/pointmatcher/DataPoints.cpp" />
+        <option value="$PROJECT_DIR$/pointmatcher/ICP.cpp" />
+        <option value="$PROJECT_DIR$/pointmatcher/PointMatcher.h" />
+        <option value="$PROJECT_DIR$/pointmatcher/OutlierFiltersImpl.cpp" />
+        <option value="$PROJECT_DIR$/pointmatcher/ErrorMinimizers/PointToPlane.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/examples/scan_align.cpp" />
+        <option value="$PROJECT_DIR$/examples/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/examples/dp_Type.cpp" />
+        <option value="$PROJECT_DIR$/pointmatcher/DataPointsFilters/VoxelGrid.h" />
       </list>
     </option>
   </component>
@@ -165,11 +202,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
-    <option name="y" value="-2" />
-    <option name="width" value="2560" />
-    <option name="height" value="1442" />
+    <option name="x" value="2459" />
+    <option name="y" value="187" />
+    <option name="width" value="1659" />
+    <option name="height" value="702" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -205,12 +243,6 @@
             </path>
             <path>
               <item name="libpointmatcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="libpointmatcher" type="462c0819:PsiDirectoryNode" />
-              <item name="pointmatcher" type="462c0819:PsiDirectoryNode" />
-              <item name="DataPointsFilters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="libpointmatcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -238,49 +270,6 @@
               <item name="include" type="462c0819:PsiDirectoryNode" />
               <item name="c++" type="462c0819:PsiDirectoryNode" />
               <item name="7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="libpointmatcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Header Search Paths" type="70bed36:NamedLibraryElementNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-              <item name="c++" type="462c0819:PsiDirectoryNode" />
-              <item name="7" type="462c0819:PsiDirectoryNode" />
-              <item name="bits" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="libpointmatcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Header Search Paths" type="70bed36:NamedLibraryElementNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-              <item name="eigen3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="libpointmatcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Header Search Paths" type="70bed36:NamedLibraryElementNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-              <item name="eigen3" type="462c0819:PsiDirectoryNode" />
-              <item name="Eigen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="libpointmatcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Header Search Paths" type="70bed36:NamedLibraryElementNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-              <item name="eigen3" type="462c0819:PsiDirectoryNode" />
-              <item name="Eigen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="libpointmatcher" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Header Search Paths" type="70bed36:NamedLibraryElementNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-              <item name="eigen3" type="462c0819:PsiDirectoryNode" />
-              <item name="Eigen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Core" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -290,7 +279,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/c_lianxi/CMakeLists.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunDashboard">
@@ -305,23 +294,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.scan_align">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpointmatcher" RUN_TARGET_NAME="scan_align" EXPLICIT_BUILD_TARGET_NAME="all">
+  <component name="RunManager" selected="Application.dp_Type">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpointmatcher" RUN_TARGET_NAME="dp_Type" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
-    <configuration name="align_sequence" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpointmatcher" TARGET_NAME="align_sequence" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpointmatcher" RUN_TARGET_NAME="scan_align">
+    <configuration name="align_sequence" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpointmatcher" TARGET_NAME="align_sequence" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpointmatcher" RUN_TARGET_NAME="dp_Type">
       <envs />
     </configuration>
-    <configuration name="build_map" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpointmatcher" TARGET_NAME="build_map" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpointmatcher" RUN_TARGET_NAME="scan_align">
+    <configuration name="build_map" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpointmatcher" TARGET_NAME="build_map" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpointmatcher" RUN_TARGET_NAME="dp_Type">
       <envs />
     </configuration>
-    <configuration name="compute_overlap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpointmatcher" TARGET_NAME="compute_overlap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpointmatcher" RUN_TARGET_NAME="scan_align">
+    <configuration name="compute_overlap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpointmatcher" TARGET_NAME="compute_overlap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpointmatcher" RUN_TARGET_NAME="dp_Type">
       <envs />
     </configuration>
-    <configuration name="debuggable" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpointmatcher" TARGET_NAME="debuggable" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpointmatcher" RUN_TARGET_NAME="scan_align">
+    <configuration name="debuggable" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpointmatcher" TARGET_NAME="debuggable" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpointmatcher" RUN_TARGET_NAME="dp_Type">
       <envs />
     </configuration>
-    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpointmatcher" TARGET_NAME="gtest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpointmatcher" RUN_TARGET_NAME="scan_align">
+    <configuration name="dp_Type" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpointmatcher" TARGET_NAME="dp_Type" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpointmatcher" RUN_TARGET_NAME="dp_Type">
+      <envs />
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpointmatcher" TARGET_NAME="gtest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpointmatcher" RUN_TARGET_NAME="dp_Type">
       <envs />
     </configuration>
     <configuration name="icp_advance_api" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpointmatcher" TARGET_NAME="icp_advance_api" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpointmatcher" RUN_TARGET_NAME="scan_align">
@@ -339,22 +331,22 @@
     <configuration name="pmicp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpointmatcher" TARGET_NAME="pmicp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpointmatcher" RUN_TARGET_NAME="scan_align">
       <envs />
     </configuration>
-    <configuration name="pointmatcher" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpointmatcher" TARGET_NAME="pointmatcher" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpointmatcher" RUN_TARGET_NAME="scan_align">
+    <configuration name="pointmatcher" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpointmatcher" TARGET_NAME="pointmatcher" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpointmatcher" RUN_TARGET_NAME="dp_Type">
       <envs />
     </configuration>
-    <configuration name="releasable" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpointmatcher" TARGET_NAME="releasable" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpointmatcher" RUN_TARGET_NAME="scan_align">
+    <configuration name="releasable" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpointmatcher" TARGET_NAME="releasable" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpointmatcher" RUN_TARGET_NAME="dp_Type">
       <envs />
     </configuration>
     <configuration name="scan_align" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpointmatcher" TARGET_NAME="scan_align" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpointmatcher" RUN_TARGET_NAME="scan_align">
       <envs />
     </configuration>
-    <configuration name="uninstall" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpointmatcher" TARGET_NAME="uninstall" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpointmatcher" RUN_TARGET_NAME="scan_align">
+    <configuration name="uninstall" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpointmatcher" TARGET_NAME="uninstall" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpointmatcher" RUN_TARGET_NAME="dp_Type">
       <envs />
     </configuration>
-    <configuration name="yaml-cpp-pm" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpointmatcher" TARGET_NAME="yaml-cpp-pm" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpointmatcher" RUN_TARGET_NAME="scan_align">
+    <configuration name="yaml-cpp-pm" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libpointmatcher" TARGET_NAME="yaml-cpp-pm" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libpointmatcher" RUN_TARGET_NAME="dp_Type">
       <envs />
     </configuration>
-    <list size="16">
+    <list size="17">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.pointmatcher" />
       <item index="2" class="java.lang.String" itemvalue="Application.uninstall" />
@@ -365,12 +357,13 @@
       <item index="7" class="java.lang.String" itemvalue="Application.align_sequence" />
       <item index="8" class="java.lang.String" itemvalue="Application.build_map" />
       <item index="9" class="java.lang.String" itemvalue="Application.compute_overlap" />
-      <item index="10" class="java.lang.String" itemvalue="Application.icp_advance_api" />
-      <item index="11" class="java.lang.String" itemvalue="Application.icp_customized" />
-      <item index="12" class="java.lang.String" itemvalue="Application.icp_simple" />
-      <item index="13" class="java.lang.String" itemvalue="Application.list_modules" />
-      <item index="14" class="java.lang.String" itemvalue="Application.pmicp" />
-      <item index="15" class="java.lang.String" itemvalue="Application.scan_align" />
+      <item index="10" class="java.lang.String" itemvalue="Application.dp_Type" />
+      <item index="11" class="java.lang.String" itemvalue="Application.icp_advance_api" />
+      <item index="12" class="java.lang.String" itemvalue="Application.icp_customized" />
+      <item index="13" class="java.lang.String" itemvalue="Application.icp_simple" />
+      <item index="14" class="java.lang.String" itemvalue="Application.list_modules" />
+      <item index="15" class="java.lang.String" itemvalue="Application.pmicp" />
+      <item index="16" class="java.lang.String" itemvalue="Application.scan_align" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -387,30 +380,53 @@
       <option name="presentableId" value="Default" />
       <updated>1599206458108</updated>
       <workItem from="1599206459228" duration="2260000" />
-      <workItem from="1599444001079" duration="10166000" />
+      <workItem from="1599444001079" duration="15175000" />
+      <workItem from="1599475193606" duration="491000" />
+      <workItem from="1599530965933" duration="6984000" />
+      <workItem from="1599550216659" duration="106000" />
+      <workItem from="1599551080278" duration="1599000" />
+      <workItem from="1599559914457" duration="501000" />
+      <workItem from="1599560652846" duration="557000" />
+      <workItem from="1599618284266" duration="11499000" />
+      <workItem from="1600069227779" duration="464000" />
+      <workItem from="1600069999973" duration="5295000" />
+      <workItem from="1600138276775" duration="2689000" />
+      <workItem from="1600238834610" duration="635000" />
+      <workItem from="1600240412045" duration="4560000" />
+      <workItem from="1600253535550" duration="388000" />
+      <workItem from="1600410460142" duration="502000" />
+      <workItem from="1600411078217" duration="553000" />
+      <workItem from="1601003043284" duration="821000" />
+      <workItem from="1602643207657" duration="3454000" />
+      <workItem from="1603092062479" duration="4317000" />
+      <workItem from="1603098509361" duration="2418000" />
+      <workItem from="1603250647551" duration="1205000" />
+      <workItem from="1603259270358" duration="1438000" />
+      <workItem from="1604028823317" duration="1249000" />
+      <workItem from="1604296139607" duration="261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12426000" />
+    <option name="totallyTimeSpent" value="69421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="2560" height="1442" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12692156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20890816" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45080093" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55453855" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26163235" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46320346" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41495043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39130434" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3150267" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -426,258 +442,399 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/pointmatcher/Transformation.cpp</url>
+          <line>70</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/pointmatcher/TransformationsImpl.cpp</url>
+          <line>54</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pointmatcher/DataPointsFiltersImpl.h">
+    <entry file="file://$PROJECT_DIR$/pointmatcher/ErrorMinimizers/Identity.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2016">
-          <caret line="84" column="27" lean-forward="false" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="1080">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pointmatcher/DataPointsFilters/Shadow.cpp">
+    <entry file="file://$PROJECT_DIR$/pointmatcher/ErrorMinimizers/Identity.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2184">
-          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+        <state relative-caret-position="1368">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointmatcher/ErrorMinimizers/PointToPlane.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5808">
+          <caret line="242" column="24" lean-forward="false" selection-start-line="242" selection-start-column="24" selection-end-line="242" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluations/eval_solution.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1313">
+          <caret line="659" column="0" lean-forward="true" selection-start-line="659" selection-start-column="0" selection-end-line="659" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointmatcher/ErrorMinimizers/PointToPoint.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="55" column="1" lean-forward="false" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointmatcher/IO.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53976">
+          <caret line="2249" column="22" lean-forward="false" selection-start-line="2249" selection-start-column="22" selection-end-line="2249" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointmatcher/TransformationsImpl.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1464">
+          <caret line="61" column="28" lean-forward="false" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/shared_ptr_base.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23376">
+          <caret line="974" column="0" lean-forward="false" selection-start-line="974" selection-start-column="0" selection-end-line="974" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointmatcher/TransformationsImpl.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2064">
+          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding>
-            <element signature="e#1748#1767#0" expanded="false" />
-            <element signature="e#1842#1854#0" expanded="false" />
+            <element signature="e#1749#1781#0" expanded="true" />
+            <element signature="e#2034#2046#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/pointmatcher/Transformation.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        <state relative-caret-position="1872">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="421" column="22" lean-forward="false" selection-start-line="421" selection-start-column="22" selection-end-line="421" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pointmatcher/DataPointsFilters/DistanceLimit.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="71" column="20" lean-forward="true" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pointmatcher/DataPointsFilters/DistanceLimit.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="93" column="14" lean-forward="true" selection-start-line="93" selection-start-column="14" selection-end-line="93" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pointmatcher/DataPointsFilters/MaxPointCount.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="66" column="39" lean-forward="false" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pointmatcher/DataPointsFilters/MaxPointCount.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="40" column="7" lean-forward="false" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pointmatcher/DataPointsFilters/Shadow.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="71" column="18" lean-forward="true" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pointmatcher/Functions.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pointmatcher/DataPointsFiltersImpl.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="948">
-          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="405">
+          <caret line="170" column="0" lean-forward="true" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pointmatcher/OutlierFilter.cpp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2016">
+          <caret line="84" column="3" lean-forward="false" selection-start-line="84" selection-start-column="3" selection-end-line="84" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/align_sequence.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointmatcher/DataPointsFilters/RandomSampling.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="66" column="37" lean-forward="false" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointmatcher/DataPointsFilters/CovarianceSampling.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="50" column="34" lean-forward="false" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointmatcher/DataPointsFilters/SurfaceNormal.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="51" column="48" lean-forward="false" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointmatcher/DataPointsFilters/SurfaceNormal.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1416">
+          <caret line="59" column="42" lean-forward="false" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointmatcher/DataPoints.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11688">
+          <caret line="487" column="15" lean-forward="false" selection-start-line="487" selection-start-column="15" selection-end-line="487" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/eigen3/Eigen/src/Core/util/Macros.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8040">
+          <caret line="335" column="31" lean-forward="false" selection-start-line="335" selection-start-column="31" selection-end-line="335" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/eigen3/Eigen/src/Core/util/Meta.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/eigen3/Eigen/src/Core/EigenBase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/eigen3/Eigen/src/Core/Matrix.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4248">
+          <caret line="177" column="6" lean-forward="false" selection-start-line="177" selection-start-column="6" selection-end-line="177" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3648">
+          <caret line="152" column="30" lean-forward="false" selection-start-line="152" selection-start-column="30" selection-end-line="152" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/dp_Type.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/scan_align.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="156" column="16" lean-forward="true" selection-start-line="156" selection-start-column="16" selection-end-line="156" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointmatcher/DataPointsFilters/MaxDist.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointmatcher/Parametrizable.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4056">
+          <caret line="169" column="18" lean-forward="false" selection-start-line="169" selection-start-column="18" selection-end-line="169" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointmatcher/DataPointsFilter.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1272">
+          <caret line="53" column="8" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/filterProfiler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointmatcher/DataPointsFilters/MaxDensity.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1464">
+          <caret line="61" column="3" lean-forward="false" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointmatcher/DataPointsFilters/MaxDensity.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1752">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding>
+            <element signature="e#1826#1838#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointmatcher/DataPointsFilters/VoxelGrid.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="65" column="57" lean-forward="false" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/list_modules.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4692">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/icp_simple.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-708">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointmatcher/Parametrizable.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <caret line="97" column="9" lean-forward="false" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/icp_customized.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="178" column="15" lean-forward="true" selection-start-line="178" selection-start-column="15" selection-end-line="178" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/stdexcept">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
-          <caret line="63" column="74" lean-forward="false" selection-start-line="63" selection-start-column="74" selection-end-line="63" selection-end-column="74" />
-          <folding />
+          <caret line="220" column="4" lean-forward="false" selection-start-line="220" selection-start-column="4" selection-end-line="220" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pointmatcher/DataPointsFilters/Shadow.cpp">
+    <entry file="file://$PROJECT_DIR$/pointmatcher/InspectorsImpl.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="42" column="62" lean-forward="true" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
-          <folding>
-            <element signature="e#1748#1767#0" expanded="false" />
-            <element signature="e#1842#1854#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="1004">
+          <caret line="148" column="20" lean-forward="true" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/boost/typeof/decltype.hpp">
+    <entry file="file://$PROJECT_DIR$/examples/icp.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/boost/typeof/typeof.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="223" column="38" lean-forward="true" selection-start-line="223" selection-start-column="38" selection-end-line="223" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/eigen3/Eigen/src/Core/Array.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="e#1713#1795#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pointmatcher/OutlierFiltersImpl.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742">
-          <caret line="266" column="22" lean-forward="false" selection-start-line="266" selection-start-column="22" selection-end-line="266" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pointmatcher/OutlierFiltersImpl.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2110">
-          <caret line="340" column="19" lean-forward="false" selection-start-line="340" selection-start-column="19" selection-end-line="340" selection-end-column="19" />
-          <folding>
-            <element signature="e#2807#2819#0" expanded="false" />
-            <element signature="e#4284#4296#0" expanded="false" />
-            <element signature="e#6646#6658#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-1536">
+          <caret line="157" column="11" lean-forward="false" selection-start-line="157" selection-start-column="11" selection-end-line="157" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pointmatcher/Inspector.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="886">
-          <caret line="80" column="46" lean-forward="false" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="46" />
+        <state relative-caret-position="1920">
+          <caret line="80" column="33" lean-forward="false" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pointmatcher/MatchersImpl.cpp">
+    <entry file="file://$PROJECT_DIR$/pointmatcher/ErrorMinimizer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742">
-          <caret line="137" column="7" lean-forward="false" selection-start-line="137" selection-start-column="7" selection-end-line="137" selection-end-column="7" />
+        <state relative-caret-position="5232">
+          <caret line="218" column="84" lean-forward="false" selection-start-line="218" selection-start-column="84" selection-end-line="218" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pointmatcher/MatchersImpl.h">
+    <entry file="file://$PROJECT_DIR$/pointmatcher/TransformationChecker.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1030">
-          <caret line="92" column="11" lean-forward="false" selection-start-line="92" selection-start-column="11" selection-end-line="92" selection-end-column="11" />
+        <state relative-caret-position="2928">
+          <caret line="122" column="14" lean-forward="false" selection-start-line="122" selection-start-column="14" selection-end-line="122" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pointmatcher/Matcher.cpp">
+    <entry file="file://$PROJECT_DIR$/pointmatcher/Registrar.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" column="0" lean-forward="false" selection-start-line="65" selection-start-column="1" selection-end-line="76" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pointmatcher/PointMatcher.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="397" column="2" lean-forward="false" selection-start-line="397" selection-start-column="2" selection-end-line="397" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pointmatcher/Matches.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="112" column="7" lean-forward="false" selection-start-line="112" selection-start-column="7" selection-end-line="112" selection-end-column="7" />
+        <state relative-caret-position="5256">
+          <caret line="219" column="10" lean-forward="false" selection-start-line="219" selection-start-column="10" selection-end-line="219" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pointmatcher/ICP.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="406" column="25" lean-forward="false" selection-start-line="406" selection-start-column="25" selection-end-line="406" selection-end-column="25" />
+        <state relative-caret-position="3576">
+          <caret line="149" column="75" lean-forward="false" selection-start-line="149" selection-start-column="53" selection-end-line="149" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/7/bits/stl_function.h">
+    <entry file="file://$PROJECT_DIR$/pointmatcher/Registry.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="117" column="11" lean-forward="false" selection-start-line="117" selection-start-column="11" selection-end-line="117" selection-end-column="11" />
+        <state relative-caret-position="1032">
+          <caret line="43" column="29" lean-forward="false" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointmatcher/TransformationCheckersImpl.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2256">
+          <caret line="94" column="4" lean-forward="false" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointmatcher/TransformationCheckersImpl.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4776">
+          <caret line="199" column="41" lean-forward="false" selection-start-line="199" selection-start-column="41" selection-end-line="199" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointmatcher/PointMatcher.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3576">
+          <caret line="149" column="12" lean-forward="false" selection-start-line="149" selection-start-column="12" selection-end-line="149" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointmatcher/Exceptions.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pointmatcher/DataPointsFiltersImpl.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="889">
+          <caret line="94" column="20" lean-forward="true" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
           <folding>
-            <element signature="e#4495#4545#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/eigen3/Eigen/src/Core/MatrixBase.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="320" column="43" lean-forward="false" selection-start-line="320" selection-start-column="43" selection-end-line="320" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/align_map/submap_align/factors.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/scan_align.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="206" column="2" lean-forward="false" selection-start-line="206" selection-start-column="2" selection-end-line="206" selection-end-column="2" />
-          <folding>
-            <element signature="e#1#39#0" expanded="true" />
+            <element signature="e#3053#3065#0" expanded="true" />
           </folding>
         </state>
       </provider>

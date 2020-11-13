@@ -2,6 +2,9 @@ cmake_minimum_required(VERSION 2.8.11)
 
 include(CheckSymbolExists)
 
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -march=native -O2")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -march=native -O2")
+
 #========================
 # Project details / setup
 #========================
@@ -153,6 +156,7 @@ message(STATUS "libnabo found, version ${libnabo_VERSION} (include=${libnabo_INC
 # DEPENDENCY: OpenMP (optional)
 #--------------------
 set(USE_OPEN_MP FALSE CACHE BOOL "Set to TRUE to use OpenMP")
+message(STATUS "USE_OPEN_MP: " ${USE_OPEN_MP})
 if (USE_OPEN_MP)
 	find_package(OpenMP)
 	if (OPENMP_FOUND)

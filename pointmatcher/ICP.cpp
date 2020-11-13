@@ -313,6 +313,8 @@ typename PointMatcher<T>::TransformationParameters PointMatcher<T>::ICP::compute
 }
 
 //! Perferm ICP using an already-transformed reference and with an already-initialized matcher
+//! T_refIn_refMean: the centrol coordination of reference cloud,
+//! T_refIn_dataIn: the initial transformation from reading cloud to reference cloud
 template<typename T>
 typename PointMatcher<T>::TransformationParameters PointMatcher<T>::ICP::computeWithTransformedReference(
 	const DataPoints& readingIn, 

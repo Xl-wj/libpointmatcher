@@ -56,7 +56,8 @@ PointMatcher<T>::ErrorMinimizer::ErrorElements::ErrorElements():
 
 //! Constructor from existing data. This will align the data.
 template<typename T>
-PointMatcher<T>::ErrorMinimizer::ErrorElements::ErrorElements(const DataPoints& requestedPts, const DataPoints& sourcePts, const OutlierWeights& outlierWeights, const Matches& matches)
+PointMatcher<T>::ErrorMinimizer::ErrorElements::ErrorElements(
+        const DataPoints& requestedPts, const DataPoints& sourcePts, const OutlierWeights& outlierWeights, const Matches& matches)
 {
 	typedef typename Matches::Ids Ids;
 	typedef typename Matches::Dists Dists;
@@ -215,7 +216,8 @@ PointMatcher<T>::ErrorMinimizer::~ErrorMinimizer()
 
 //! Find the transformation that minimizes the error
 template<typename T>
-typename PointMatcher<T>::TransformationParameters PointMatcher<T>::ErrorMinimizer::compute(const DataPoints& filteredReading, const DataPoints& filteredReference, const OutlierWeights& outlierWeights, const Matches& matches)
+typename PointMatcher<T>::TransformationParameters PointMatcher<T>::ErrorMinimizer::compute(
+        const DataPoints& filteredReading, const DataPoints& filteredReference, const OutlierWeights& outlierWeights, const Matches& matches)
 {
 	
 	// generates pairs of matching points

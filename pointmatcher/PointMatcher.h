@@ -716,6 +716,9 @@ struct PointMatcher
 		const DataPoints& getReadingFiltered() const { return readingFiltered; }
 
 	protected:
+			//! Perferm ICP using an already-transformed reference and with an already-initialized matcher
+			//! T_refIn_refMean: the centrol coordination of reference cloud,
+			//! T_refIn_dataIn: the initial transformation from reading cloud to reference cloud
 		TransformationParameters computeWithTransformedReference(
 			const DataPoints& readingIn, 
 			const DataPoints& reference, 
