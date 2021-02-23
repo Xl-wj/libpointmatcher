@@ -1,5 +1,10 @@
 ![alt tag](doc/images/banner_light.jpeg)
 
+# fixed using eigen, and occer core segmentation problem.
+add the following code to cmakelists.txt file, externally contains libnabo.lib
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -march=native -O2")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -march=native -O2")
+
 
 ---
 
